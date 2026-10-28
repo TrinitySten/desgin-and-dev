@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="page-wrapper">
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#gallery">Gallery</a>
-            <a href="contact">Contact</a>
+            <a href="#info">Contact</a>
         </nav>
         <header>
             <h1>Freelance Graphic Design and Illustration</h1>
@@ -20,12 +20,15 @@
                 design and 2D illustration. I design with diligence, 
                 ensuring every client's creative vision is brought to life.</p>
                 <p>Commissions are currently open for illustration and design work. Email me if you’re interested.</p>
-                <a href="mailto:trinitysten2019@gmail.com">Email Me</a>
+                <div>
+                    <a class="button" href="mailto:trinitysten2019@gmail.com">Email Me</a>
+                </div>
         </header>
         <main>
-            <section>
+            <section id="about">
                 <h2>Work</h2>
-                <div>
+                <div class="work-feature">
+                <article>
                     <h3>Arcadia Found</h3>
                     <p>A small scale collaboration done for Brackey's Game Jam, a 
                         week&hyphen;long game development competition hosted on
@@ -36,28 +39,27 @@
                             <li>Introduction scene art</li>
                             <li>Talksprite art &#40;Midori, Bela, Mary, Jedidiah, Zwei&#41;</li>
                         </ul>
-                </div>
-                <div>
-                    <h3>Arcadia Found</h3>
+                    </article>
+                <article>
+                    <h3>Seconds To Enter</h3>
                     <p>A Homestuck-inspired fan-comic created by Joise Rolann.</p>
                     <p><strong>Contributed&#58;</strong></p>
                     <ul>
                         <li>Static &amp; animated panel art</li>
                         <li>Police troll talksprite</li>
                     </ul>
+                </article>
                 </div>
             </section>
-            <section>
+            <section id="gallery">
                 <h2>Gallery</h2>
                 <div>
-                    <img src="images/" alt="here">
-                    <img src="images/" alt="here">
-                    <img src="images/" alt="here">
-                    <img src="images/" alt="here">
-                    <img src="images/" alt="here">
+                    <img src="images/GDES102_FA26_B1Logo_TSten.png" alt="Black and white version of the Outerworld Bakery's Logo. It features a bread planet, and a rocket circling around it to form the planet's rings.">
+                    <img src="images/GDES102_FA26_B1Logo_TSten(1).png" alt="Colored version of the Outerworld Bakery's Logo. It's primary colors are cream, brown, and violet.">
+                    <img src="images/TSten_Repeating_Pattern(1).png" alt="A repeating pattern of various cartoonish cats with overlaid text reading paw-sitively cute">
                 </div>
             </section>
-            <section>
+            <section id="info">
                 <h2>Contact</h2>
                 <div>
                     <h3>Phone</h3>
@@ -69,7 +71,16 @@
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer-section">
+                <h2>Find me on my other platforms!</h2>
+                <div>
+                    <a href="https://instagram.com/_serphoz_">Instagram</a>
+                    <a href="https://tumblr.com/serphoz">Tumblr</a>
+                    <a href="https://serpscomms.carrd.co">2D illustration commissions</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
